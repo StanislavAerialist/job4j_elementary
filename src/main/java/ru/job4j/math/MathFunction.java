@@ -17,4 +17,5 @@ public class MathFunction {
     public static double difference(double first, double second) {
         return first - second;
     }
+
 }

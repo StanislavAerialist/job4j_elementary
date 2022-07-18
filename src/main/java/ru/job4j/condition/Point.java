@@ -10,7 +10,7 @@ public class Point {
     public static void main(String[] args) {
         double result = Point.distance(0, 0, 2, 0);
         System.out.println("result (0, 0) to (2, 0) " + result);
-        double result2 = Point.distance(2, 4, 4, 4);
-        System.out.println("result2 (2, 4) to (4, 4) " + result2);
+        double result2 = Point.distance(1, 0, 5, 6);
+        System.out.println("result2 (1, 0) to (5, 6) " + result2);
     }
 }

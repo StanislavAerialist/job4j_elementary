@@ -6,10 +6,8 @@ public class JavaNameValidator {
         for (int i = 0; i < name.length(); i++) {
             int codeOfFirst = name.codePointAt(0);
             int code = name.codePointAt(i);
-            if (((code >= 48 && code <= 57) || code == 36 || code == 95 || (code >= 97 && code <= 122)) && (codeOfFirst >= 97 && codeOfFirst <= 122)) {
-                rsl = true;
-            }   else {
-                rsl = false;
+            rsl = (((code >= 48 && code <= 57) || code == 36 || code == 95 || (code >= 97 && code <= 122)) && (codeOfFirst >= 97 && codeOfFirst <= 122));
+            if (!rsl) {
                 break;
             }
         }

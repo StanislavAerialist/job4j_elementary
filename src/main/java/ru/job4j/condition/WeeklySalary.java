@@ -13,7 +13,6 @@ public class WeeklySalary {
             } else {
                 sum = sum + hours[i] * 10;
             }
-
         }
         return sum;
     }

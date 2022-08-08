@@ -10,7 +10,6 @@ public class IndexOfWithCount {
                 rsl = i;
             }
         }
-
         return rsl;
     }
 }

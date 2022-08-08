@@ -8,7 +8,6 @@ public class CrossArray {
                     System.out.println(left[i]);
                 }
             }
-
         }
     }
 }

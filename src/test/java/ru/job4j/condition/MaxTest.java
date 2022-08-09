@@ -31,4 +31,24 @@ public class MaxTest {
         Assert.assertEquals(result, expected);
     }
 
+    @Test
+    public void whenMax1To2To3Then3() {
+        int first = 1;
+        int second = 2;
+        int third = 3;
+        int result = Max.max(first, Max.max(second, third));
+        int expected = 3;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void whenMax4To2To3To1Then4() {
+        int first = 4;
+        int second = 2;
+        int third = 3;
+        int fourth = 1;
+        int result = Max.max(first, Max.max(second, Max.max(third, fourth)));
+        int expected = 4;
+        Assert.assertEquals(result, expected);
+    }
 }

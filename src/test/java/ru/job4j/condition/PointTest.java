@@ -42,7 +42,7 @@ public class PointTest {
     }
 
     @Test
-    public void  when10to00to00then1() {
+    public void  when100to000then1() {
         Point a = new Point(1, 0, 0);
         Point b = new Point(0, 0, 0);
         double expected = 1;
@@ -51,7 +51,7 @@ public class PointTest {
     }
 
     @Test
-    public void  when00to00to02then2() {
+    public void  when000to002then2() {
         Point a = new Point(0, 0, 0);
         Point b = new Point(0, 0, 2);
         double expected = 2;
